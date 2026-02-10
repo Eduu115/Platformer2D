@@ -2,7 +2,6 @@ using UnityEngine;
 
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
 public class StaticSawTrap : MonoBehaviour
 {
@@ -25,7 +24,7 @@ public class StaticSawTrap : MonoBehaviour
 
         if (sistemaVida != null)
         {
-            sistemaVida.RecibirDaño(dañoQueCausa);
+            sistemaVida.RecibirDaño(dañoQueCausa, transform.position);
             return;
         }
 
@@ -36,13 +35,14 @@ public class StaticSawTrap : MonoBehaviour
 
         if (character != null)
         {
+            // Por si no esta en el mismo GameObject, lo busco en padres e hijos que si no no me funciona.
             SistemaVida sv = character.GetComponent<SistemaVida>()
                 ?? character.GetComponentInParent<SistemaVida>()
                 ?? character.GetComponentInChildren<SistemaVida>();
 
             if (sv != null)
             {
-                sv.RecibirDaño(dañoQueCausa);
+                sv.RecibirDaño(dañoQueCausa, transform.position);
                 return;
             }
         }
