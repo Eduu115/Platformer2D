@@ -1235,6 +1235,7 @@ GameObject:
   - component: {fileID: 1212929735}
   - component: {fileID: 1212929736}
   - component: {fileID: 1212929737}
+  - component: {fileID: 1212929738}
   m_Layer: 0
   m_Name: Saw
   m_TagString: SawTrap
@@ -1442,6 +1443,27 @@ CircleCollider2D:
   m_Offset: {x: -0.0053466465, y: 0}
   serializedVersion: 2
   m_Radius: 0.1097998
+--- !u!95 &1212929738
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212929730}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 97965b358b67a424dae25744ab6260fe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1333608125
 GameObject:
   m_ObjectHideFlags: 0
