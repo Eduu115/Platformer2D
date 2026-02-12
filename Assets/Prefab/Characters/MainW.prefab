@@ -60,7 +60,7 @@ Transform:
   m_GameObject: {fileID: 7618703076505334909}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.836958, y: 2.783802, z: 0}
+  m_LocalPosition: {x: -19.8407, y: 2.7773, z: 0}
   m_LocalScale: {x: 1.3, y: 1.3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -204,9 +204,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadMovimiento: 5
+  aceleracion: 10
+  desaceleracion: 10
   fuerzaSalto: 10
+  gravedadCaida: 2.5
+  gravedadSaltoCorto: 2
+  tiempoCoyote: 0.2
+  tiempoBuffer: 0.2
   puntoDeteccionSuelo: {fileID: 0}
-  radioDeteccion: 0.2
+  "tama\xF1oDeteccion": {x: 0.5, y: 0.1}
   capaSuelo:
     serializedVersion: 2
     m_Bits: 0
