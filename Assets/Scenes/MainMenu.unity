@@ -379,6 +379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenu Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6173835972334642480, guid: 34bbad34a855904438e87c114071f47f, type: 3}
+      propertyPath: tutorialSceneName
+      value: Tutorial_0
+      objectReference: {fileID: 0}
     - target: {fileID: 7074030514931881991, guid: 34bbad34a855904438e87c114071f47f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
