@@ -379,6 +379,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenu Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6173835972334642480, guid: 34bbad34a855904438e87c114071f47f, type: 3}
+      propertyPath: tutorialSceneName
+      value: Tutorial_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6982397850882314947, guid: 34bbad34a855904438e87c114071f47f, type: 3}
+      propertyPath: tutorialSceneName
+      value: Tutorial_0
+      objectReference: {fileID: 0}
     - target: {fileID: 7074030514931881991, guid: 34bbad34a855904438e87c114071f47f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -472,6 +480,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2992264812317851475, guid: d92c7f5e8e97c9b4c8a9885051e25568, type: 3}
+      propertyPath: tutorialSceneName
+      value: Tutorial_0
+      objectReference: {fileID: 0}
     - target: {fileID: 4147541873358807687, guid: d92c7f5e8e97c9b4c8a9885051e25568, type: 3}
       propertyPath: m_Name
       value: MenuManager
