@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class SueloBoss : MonoBehaviour
 {
-    [SerializeField] private string escenaCreditos = "Creditos";
+    [SerializeField] private string escenaCreditos = "Credits";
     [SerializeField] private GameObject boss;
     [SerializeField] private float delayDesaparecer = 2f;
     [SerializeField] private float delayCreditos = 4f; // tiempo tras caer para cargar créditos
